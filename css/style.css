@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+/* header */
+
+.header {
+    background-image: url("../banner/banner2.png");
+    background-repeat: no-repeat;
+    width: 1365px;
+    height: 800px;
+}
+
+.header-text {
+    text-align: right;
+    padding: 250px 290px;
+    padding-right: 160px;
+
+}
+
+.header-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #151414;
+}
+
+.header-description {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 25px;
+    color: #444343;
+}
+
+.btn-primary {
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 25px;
+    background-color: orangered;
+    color: white;
+
+}
+
+/* header end */
+
+/* main section start */
+.image {
+    display: flex;
+    align-items: center;
+    margin: 130px 290px;
+    gap: 60px;
+}
+
+
+
+.image-text {
+    font-size: 40px;
+    font-weight: 600;
+    color: #151414;
+    padding-top: 70px;
+
+}
+
+.image-description {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px;
+    color: #444343;
+}
+
+.image-list {
+    list-style: none;
+    padding: 30px 0;
+    font-size: 16px;
+    color: #444343;
+
+}
+
+.fa-solid {
+    color: lightgreen;
+
+}
+
+/* end of image section */
+/* start of plans */
+
+.plans {
+    text-align: center;
+}
+
+.plan-item {
+    font-size: 16px;
+
+}
+
+.item {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+
+.plan-text {
+    padding: 20px;
+}
+
+.plan-description {
+    color: #737272;
+}
+
+/* end of plan part */
+
+/* box style */
+
+
+.box-title {
+    padding: 90px 60px;
+    background-image: linear-gradient(to right, rgba(255, 68, 0, 0.603), rgba(255, 255, 255, 0)), url("../images/watch.png");
+    background-repeat: no-repeat;
+    margin: 125px 150px;
+    height: 120px;
+}
+
+
+
+.box-text {
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-bottom: 20px;
+    /* padding-bottom: 100px; */
+    
+
+}
+
+.btn-color {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: white;
+    color: orangered;
+
+}
+
+/* final part */
+
+.final-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #151414;
+    color: white;
+    height: 50vh;
+    text-align: center;
+    padding-top: 90px;
+    padding-right: 30px;
+
+}
+
+.final-description {
+    padding-top: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+
+
+
+}
+
+.final-text {
+    font-size: 40px;
+    padding-right: 130px;
+    text-align: left;
+}
+
+.btn-subscribe {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: white;
+    color: orangered;
+    margin-top: 20px;
+    margin-right: 130px;
+}
+
+.email {
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid white;
+    background-color:#151414;
+    font-size: 16px;
+    color:white;
+
+}
+
+.subscribe-text {
+    font-size: 25px;
+    padding-right: 90px;
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+}
